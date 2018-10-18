@@ -103,5 +103,20 @@ class Status
     {
         return $this->descriptionStatus;
     }
+    /**
+     * @return mixed
+     */
+    public function getTask()
+    {
+        return $this->task;
+    }
+
+    /**
+     * @param mixed $task
+     */
+    public function setTask($task)
+    {
+        $this->task = $task;
+    }
 }
 

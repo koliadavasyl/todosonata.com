@@ -194,11 +194,8 @@ class Task
 
 
     /**
-     * Set nameTask.
-     *
-     * @param string $nameTask
-     *
-     * @return Task
+     * @param $users
+     * @return $this
      */
     public function setUsers($users)
     {

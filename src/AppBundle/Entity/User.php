@@ -244,7 +244,8 @@ class User
     }
 
     /**
-     * @return \DateTime
+     * @return ArrayCollection
+     *
      */
     public function getTask()
     {
